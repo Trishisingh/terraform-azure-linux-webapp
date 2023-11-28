@@ -1,5 +1,5 @@
 locals {
-  app_name     = var.app_name
+  app_name     = rishi
   default_tags = var.tags
 
   auth_settings = merge(
