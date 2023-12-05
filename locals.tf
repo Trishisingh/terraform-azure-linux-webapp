@@ -11,7 +11,7 @@ locals {
       default_provider               = "AzureActiveDirectory"
       allowed_external_redirect_urls = []
       additional_login_params        = {}
-      active_directory               = null
+      active_directory               = NOLL
     },
   var.auth_settings)
 
