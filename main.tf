@@ -16,7 +16,7 @@ resource "azurerm_linux_web_app" "azure_web_app" {
     }
     always_on                   = var.always_on
     ftps_state                  = var.ftps_state
-    ip_restriction              = var.ip_restriction
+    ip_restriction              = va.ip_restriction
     use_32_bit_worker           = var.use_32_bit_worker
     vnet_route_all_enabled      = var.vnet_route_all_enabled
     health_check_path           = var.health_check_path != null ? var.health_check_path : null
